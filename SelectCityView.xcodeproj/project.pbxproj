@@ -9,11 +9,12 @@
 /* Begin PBXBuildFile section */
 		5795C3691B5B8E47001DC673 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5795C3681B5B8E47001DC673 /* main.m */; };
 		5795C36C1B5B8E47001DC673 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5795C36B1B5B8E47001DC673 /* AppDelegate.m */; };
-		5795C36F1B5B8E47001DC673 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5795C36E1B5B8E47001DC673 /* ViewController.m */; };
-		5795C3721B5B8E47001DC673 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5795C3701B5B8E47001DC673 /* Main.storyboard */; };
 		5795C3741B5B8E47001DC673 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5795C3731B5B8E47001DC673 /* Images.xcassets */; };
 		5795C3771B5B8E47001DC673 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5795C3751B5B8E47001DC673 /* LaunchScreen.xib */; };
 		5795C3831B5B8E47001DC673 /* SelectCityViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5795C3821B5B8E47001DC673 /* SelectCityViewTests.m */; };
+		5795C38E1B5B8F06001DC673 /* SCProvinceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5795C38D1B5B8F06001DC673 /* SCProvinceViewController.m */; };
+		5795C3901B5B9E72001DC673 /* kProvinceCityData.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5795C38F1B5B9E72001DC673 /* kProvinceCityData.plist */; };
+		5795C3931B5BBA39001DC673 /* SCSelectCityView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5795C3921B5BBA39001DC673 /* SCSelectCityView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +33,16 @@
 		5795C3681B5B8E47001DC673 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5795C36A1B5B8E47001DC673 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5795C36B1B5B8E47001DC673 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		5795C36D1B5B8E47001DC673 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		5795C36E1B5B8E47001DC673 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		5795C3711B5B8E47001DC673 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5795C3731B5B8E47001DC673 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		5795C3761B5B8E47001DC673 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		5795C37C1B5B8E47001DC673 /* SelectCityViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SelectCityViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5795C3811B5B8E47001DC673 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5795C3821B5B8E47001DC673 /* SelectCityViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SelectCityViewTests.m; sourceTree = "<group>"; };
+		5795C38C1B5B8F06001DC673 /* SCProvinceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCProvinceViewController.h; sourceTree = "<group>"; };
+		5795C38D1B5B8F06001DC673 /* SCProvinceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCProvinceViewController.m; sourceTree = "<group>"; };
+		5795C38F1B5B9E72001DC673 /* kProvinceCityData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = kProvinceCityData.plist; sourceTree = "<group>"; };
+		5795C3911B5BBA39001DC673 /* SCSelectCityView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCSelectCityView.h; sourceTree = "<group>"; };
+		5795C3921B5BBA39001DC673 /* SCSelectCityView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCSelectCityView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,12 +86,13 @@
 			children = (
 				5795C36A1B5B8E47001DC673 /* AppDelegate.h */,
 				5795C36B1B5B8E47001DC673 /* AppDelegate.m */,
-				5795C36D1B5B8E47001DC673 /* ViewController.h */,
-				5795C36E1B5B8E47001DC673 /* ViewController.m */,
-				5795C3701B5B8E47001DC673 /* Main.storyboard */,
 				5795C3731B5B8E47001DC673 /* Images.xcassets */,
 				5795C3751B5B8E47001DC673 /* LaunchScreen.xib */,
 				5795C3661B5B8E47001DC673 /* Supporting Files */,
+				5795C38C1B5B8F06001DC673 /* SCProvinceViewController.h */,
+				5795C38D1B5B8F06001DC673 /* SCProvinceViewController.m */,
+				5795C3911B5BBA39001DC673 /* SCSelectCityView.h */,
+				5795C3921B5BBA39001DC673 /* SCSelectCityView.m */,
 			);
 			path = SelectCityView;
 			sourceTree = "<group>";
@@ -96,6 +100,7 @@
 		5795C3661B5B8E47001DC673 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				5795C38F1B5B9E72001DC673 /* kProvinceCityData.plist */,
 				5795C3671B5B8E47001DC673 /* Info.plist */,
 				5795C3681B5B8E47001DC673 /* main.m */,
 			);
@@ -199,7 +204,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5795C3721B5B8E47001DC673 /* Main.storyboard in Resources */,
+				5795C3901B5B9E72001DC673 /* kProvinceCityData.plist in Resources */,
 				5795C3771B5B8E47001DC673 /* LaunchScreen.xib in Resources */,
 				5795C3741B5B8E47001DC673 /* Images.xcassets in Resources */,
 			);
@@ -219,9 +224,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5795C36F1B5B8E47001DC673 /* ViewController.m in Sources */,
 				5795C36C1B5B8E47001DC673 /* AppDelegate.m in Sources */,
+				5795C38E1B5B8F06001DC673 /* SCProvinceViewController.m in Sources */,
 				5795C3691B5B8E47001DC673 /* main.m in Sources */,
+				5795C3931B5BBA39001DC673 /* SCSelectCityView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -244,14 +250,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		5795C3701B5B8E47001DC673 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5795C3711B5B8E47001DC673 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		5795C3751B5B8E47001DC673 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (

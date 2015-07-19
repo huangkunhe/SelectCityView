@@ -7,16 +7,29 @@
 //
 
 #import "AppDelegate.h"
+#import "SCProvinceViewController.h"
 
 @interface AppDelegate ()
+
+@property(nonatomic,strong)SCProvinceViewController* viewController;
 
 @end
 
 @implementation AppDelegate
 
+-(SCProvinceViewController *)viewController
+{
+    if (!_viewController) {
+        _viewController=[[SCProvinceViewController alloc]init];
+    }
+    return _viewController;
+}
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    [self.window makeKeyAndVisible];
+    self.window.rootViewController = self.viewController;
     return YES;
 }
 

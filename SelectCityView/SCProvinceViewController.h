@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  SCProvinceViewController.h
 //  SelectCityView
 //
 //  Created by river on 15/7/19.
@@ -7,9 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-
-@interface ViewController : UIViewController
+@interface SCProvinceViewController : UIViewController
 
 
 @end
-
