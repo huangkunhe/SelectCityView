@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>BFC8336D-F872-48D2-B75D-2F342979BBE4</string>
+	<key>IDESourceControlProjectName</key>
+	<string>SelectCityView</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>BC022470D0DD210D7E1B39A6727DB4D82127491E</key>
+		<string>https://github.com/huangkunhe/SelectCityView.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>SelectCityView.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>BC022470D0DD210D7E1B39A6727DB4D82127491E</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/huangkunhe/SelectCityView.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>BC022470D0DD210D7E1B39A6727DB4D82127491E</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>BC022470D0DD210D7E1B39A6727DB4D82127491E</string>
+			<key>IDESourceControlWCCName</key>
+			<string>SelectCityView</string>
+		</dict>
+	</array>
+</dict>
+</plist>
